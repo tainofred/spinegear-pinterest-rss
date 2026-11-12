@@ -2,7 +2,8 @@ name: Update Pinterest RSS feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 7 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 15 * * *"
 permissions:
   contents: write
 concurrency:
